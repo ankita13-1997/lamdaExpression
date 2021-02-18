@@ -166,13 +166,13 @@ public class ValidationFinal {
 			for(int i=0; i<n1 ; i++) {
 				First_Name.add(sc.next());
 			}
-			System.out.println(First_Name.toString());
+			System.out.println("your list of first name "+First_Name.toString());
 			Pattern pt = Pattern.compile(regex);
 			
 			//Predicate <String> mailcheck =Pattern.compile(regex).asPredicate();
 		    List<String> a1= First_Name. stream(). filter(p -> pt. matcher(p). find()). collect(Collectors.<String>toList());
 			//List<String> emails1= mail.stream().filter(mailcheck).collect(Collectors.<String>toList());
-			System.out.println(a1);
+			System.out.println("your correct inputs are"+a1);
 			
 		}
 		
@@ -188,13 +188,13 @@ public class ValidationFinal {
 			 for(int i=0; i<n1 ; i++) {
 				Last_Name.add(sc.next());
 			}
-			System.out.println(Last_Name.toString());
+			System.out.println("your contains are "+Last_Name.toString());
 			Pattern pt = Pattern.compile(regex);
 			
 			//Predicate <String> mailcheck =Pattern.compile(regex).asPredicate();
 		    List<String> a1= Last_Name. stream(). filter(p -> pt. matcher(p). find()). collect(Collectors.<String>toList());
 			//List<String> emails1= mail.stream().filter(mailcheck).collect(Collectors.<String>toList());
-			System.out.println(a1);
+			System.out.println("correct name format are "+a1);
 			
 		}
 		
@@ -211,7 +211,7 @@ public class ValidationFinal {
 			 for(int i=0; i<n1 ; i++) {
 				phone_no.add(sc.next());
 			}
-			System.out.println(phone_no.toString());
+			System.out.println("added contact number are "+phone_no.toString());
 			Pattern pt = Pattern.compile(regex);
 			
 			//Predicate <String> mailcheck =Pattern.compile(regex).asPredicate();
@@ -234,7 +234,7 @@ public class ValidationFinal {
 			 for(int i=0; i<n1 ; i++) {
 				password.add(sc.next());
 			}
-			System.out.println(password.toString());
+			System.out.println("your passwords are "+password.toString());
 			Pattern pt = Pattern.compile(regex);
 			
 			//Predicate <String> mailcheck =Pattern.compile(regex).asPredicate();
@@ -257,13 +257,13 @@ public class ValidationFinal {
 			for(int i=0; i<n1 ; i++) {
 				mail.add(sc.next());
 			}
-			System.out.println(mail.toString());
+			System.out.println("your mails are "+mail.toString());
 			Pattern pt = Pattern.compile(regex);
 			
 			//Predicate <String> mailcheck =Pattern.compile(regex).asPredicate();
 		    List<String> a1= mail. stream(). filter(p -> pt. matcher(p). find()). collect(Collectors.<String>toList());
 			//List<String> emails1= mail.stream().filter(mailcheck).collect(Collectors.<String>toList());
-			System.out.println(a1);
+			System.out.println("your correct mails are " +a1);
 			
 		}
 		
